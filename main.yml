@@ -1,0 +1,8 @@
+- name: To install node.js and render a webpage in a ubuntu machine
+  hosts: all
+  become: true
+  become_method: sudo
+  become_user: root
+  roles:
+    - prepare
+    - setup
