@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello - push udpated code to GIT"
+          name: "Say hello - push udpated code to GIT- push code from VS running on my machine"
           command: "echo Hello, World!"
 
 # Invoke jobs via workflows
